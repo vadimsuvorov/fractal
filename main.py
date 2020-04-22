@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import COVID19Py
 
-covid19 = COVID19Py.COVID19()
+covid19 = COVID19Py.COVID19(url="https://cvtapi.nl")
 bot = telebot.TeleBot('884286980:AAEWz7tuxgfCfQm6EYCs_mUt--5PkRlwwsg')
 
 # Функция, что сработает при отправке команды Старт
